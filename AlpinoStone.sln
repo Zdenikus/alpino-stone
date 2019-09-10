@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpinoStone.Api", "AlpinoStone.Api\AlpinoStone.Api.csproj", "{FFE25467-BB82-4DBB-B98D-F242F23DD3FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpinoStone.Domain", "AlpinoStone.Domain\AlpinoStone.Domain.csproj", "{D41CDCCC-C673-4469-8CCB-8A1409655032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpinoStone.Application", "AlpinoStone.Application\AlpinoStone.Application.csproj", "{5C1E3C10-CF60-4B47-BB5D-195490C11CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpinoStone.Data", "AlpinoStone.Data\AlpinoStone.Data.csproj", "{3F31928E-E089-4340-A0EB-D865D87E6ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{FFE25467-BB82-4DBB-B98D-F242F23DD3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE25467-BB82-4DBB-B98D-F242F23DD3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE25467-BB82-4DBB-B98D-F242F23DD3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41CDCCC-C673-4469-8CCB-8A1409655032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41CDCCC-C673-4469-8CCB-8A1409655032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41CDCCC-C673-4469-8CCB-8A1409655032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41CDCCC-C673-4469-8CCB-8A1409655032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1E3C10-CF60-4B47-BB5D-195490C11CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1E3C10-CF60-4B47-BB5D-195490C11CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1E3C10-CF60-4B47-BB5D-195490C11CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1E3C10-CF60-4B47-BB5D-195490C11CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F31928E-E089-4340-A0EB-D865D87E6ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F31928E-E089-4340-A0EB-D865D87E6ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F31928E-E089-4340-A0EB-D865D87E6ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F31928E-E089-4340-A0EB-D865D87E6ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
